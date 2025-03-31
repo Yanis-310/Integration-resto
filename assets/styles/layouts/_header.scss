@@ -1,0 +1,50 @@
+nav {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: baseline;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    color: $white;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+
+.logo h3 {
+    font-family: $font1;
+    color: $white;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+header {
+    background: url(/assets/img/bg-slider-06.jpg) fixed center/cover;
+    padding: 400px;
+    padding-top: 0px;
+    position: relative;
+    color: $white;
+}
+
+.header-text h2 {
+    font-family: $font1;
+    color: $color1;
+    font-size: 2.5rem;
+}
+
+.header-text h1 {
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    font-family: $font2;
+    word-spacing: 20px;
+}
+
+.header-text {
+    padding-top: 130px;
+}

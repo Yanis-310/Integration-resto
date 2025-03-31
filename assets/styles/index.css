@@ -25,4 +25,64 @@ body {
   text-align: center;
   font-family: Roboto, serif;
   background: #21201e;
+}
+
+nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #eee;
+  gap: 100px;
+  margin-top: 20px;
+}
+
+.logo h3 {
+  font-family: Allura, cursive;
+  color: #eee;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+header {
+  background: url(/assets/img/bg-slider-06.jpg) fixed center/cover;
+  padding: 400px;
+  padding-top: 0px;
+  position: relative;
+  color: #eee;
+}
+
+.header-text h2 {
+  font-family: Allura, cursive;
+  color: rgb(166, 114, 69);
+  font-size: 2.5rem;
+}
+
+.header-text h1 {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  font-family: Poppins, serif;
+  word-spacing: 20px;
+}
+
+.header-text {
+  padding-top: 130px;
 }/*# sourceMappingURL=index.css.map */
