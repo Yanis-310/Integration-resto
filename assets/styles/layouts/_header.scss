@@ -14,19 +14,42 @@ nav ul {
     color: $white;
     gap: 100px;
     margin-top: 20px;
+    text-transform: uppercase;
+}
+.nav-elements {
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    flex: 2;
+    justify-content: center;
+    margin-right: 105px;
+    margin-left: 105px;
 }
 
+.nav-icon {
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.logo {
+    flex: 3;
+    margin-right: 50px;
+}
 
 .logo h3 {
     font-family: $font1;
     color: $white;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 20px;
 }
 
 header {
     background: url(/assets/img/bg-slider-06.jpg) fixed center/cover;
     padding: 400px;
+    padding-right: 0px;
+    padding-left: 0px;
     padding-top: 0px;
     position: relative;
     color: $white;
@@ -35,7 +58,9 @@ header {
 .header-text h2 {
     font-family: $font1;
     color: $color1;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
+    font-weight: 100;
+    padding-bottom: 10px;
 }
 
 .header-text h1 {
@@ -43,8 +68,22 @@ header {
     text-transform: uppercase;
     font-family: $font2;
     word-spacing: 20px;
+    letter-spacing: 10px;
 }
 
 .header-text {
     padding-top: 130px;
 }
+
+.header-text h5  {
+font-family: $font3;
+word-spacing: 30px;
+text-transform: uppercase;
+font-weight: 100;
+padding-top: 30px;
+}
+
+.header-text img {
+    padding-top: 30px;
+}
+

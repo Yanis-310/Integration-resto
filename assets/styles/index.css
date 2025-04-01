@@ -53,18 +53,57 @@ nav ul {
   color: #eee;
   gap: 100px;
   margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.nav-elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 80px;
+  list-style: none;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 105px;
+  margin-left: 105px;
+}
+
+.nav-icon {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 15px;
+}
+
+.logo {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  margin-right: 50px;
 }
 
 .logo h3 {
   font-family: Allura, cursive;
   color: #eee;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 20px;
 }
 
 header {
   background: url(/assets/img/bg-slider-06.jpg) fixed center/cover;
   padding: 400px;
+  padding-right: 0px;
+  padding-left: 0px;
   padding-top: 0px;
   position: relative;
   color: #eee;
@@ -73,7 +112,9 @@ header {
 .header-text h2 {
   font-family: Allura, cursive;
   color: rgb(166, 114, 69);
-  font-size: 2.5rem;
+  font-size: 2.6rem;
+  font-weight: 100;
+  padding-bottom: 10px;
 }
 
 .header-text h1 {
@@ -81,8 +122,68 @@ header {
   text-transform: uppercase;
   font-family: Poppins, serif;
   word-spacing: 20px;
+  letter-spacing: 10px;
 }
 
 .header-text {
   padding-top: 130px;
+}
+
+.header-text h5 {
+  font-family: Roboto, serif;
+  word-spacing: 30px;
+  text-transform: uppercase;
+  font-weight: 100;
+  padding-top: 30px;
+}
+
+.header-text img {
+  padding-top: 30px;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #eee;
+  height: 65vh;
+}
+
+.section1-right img {
+  width: 100%;
+  height: 65vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.element-left h5 {
+  font-family: Allura, cursive;
+  color: rgb(166, 114, 69);
+  font-size: 2rem;
+  padding-top: 35px;
+  font-weight: 100;
+}
+
+.element-left h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.element-left img {
+  padding-top: 30px;
+}
+
+.element-left p {
+  padding-top: 35px;
+}
+
+.section1-left img[src*="avatar-01.jpg"] {
+  width: 80px; /* Ajuste la largeur selon tes besoins */
+  height: auto; /* Garde le ratio */
+  border-radius: 50%; /* Optionnel pour un effet arrondi */
+  padding-top: 40px;
+}
+
+.section1-left h6 {
+  padding-top: 10px;
+  font-size: 1rem;
 }/*# sourceMappingURL=index.css.map */
