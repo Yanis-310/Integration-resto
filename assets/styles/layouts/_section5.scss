@@ -1,0 +1,47 @@
+.section5 {
+        background-image: url('/assets/img/gmap.jpg'); 
+        padding-bottom: 200px;
+        background-position: center -25%;
+        background-repeat: no-repeat;
+        position: relative;
+}
+
+.box {
+    background-color: $white;
+    margin: 0 auto;
+    width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.box h4 {
+    font-family: $font3 ;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+
+.box h5 {
+    color: $color1;
+    font-family: $font3 ;
+    padding-bottom: 50px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.box p {
+    padding: 70px;
+}
+
+.box img {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    object-fit: cover;
+    transform: translateX(-50%);
+    height: 10vh;
+    border-radius: 50px;
+}

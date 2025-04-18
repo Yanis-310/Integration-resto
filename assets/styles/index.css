@@ -417,6 +417,7 @@ button {
   display: flex;
   gap: 20px;
   padding: 180px;
+  padding-bottom: 125px;
   padding-top: 50px;
   color: #21201e;
   font-family: "Helvetica", sans-serif;
@@ -620,4 +621,63 @@ button {
   margin-top: 10px;
   font-family: Roboto, serif;
   font-weight: 900;
+}
+
+.section5 {
+  background-image: url("/assets/img/gmap.jpg");
+  padding-bottom: 200px;
+  background-position: center -25%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.box {
+  background-color: #eee;
+  margin: 0 auto;
+  width: 70%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.box h4 {
+  font-family: Roboto, serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-bottom: 25px;
+}
+
+.box h5 {
+  color: rgb(166, 114, 69);
+  font-family: Roboto, serif;
+  padding-bottom: 50px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.box p {
+  padding: 70px;
+}
+
+.box img {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 10vh;
+  border-radius: 50px;
 }/*# sourceMappingURL=index.css.map */
