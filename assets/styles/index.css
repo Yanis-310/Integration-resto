@@ -680,4 +680,68 @@ button {
           transform: translateX(-50%);
   height: 10vh;
   border-radius: 50px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #eee;
+  margin: 35px 70px;
+}
+
+.footer-left {
+  width: 50%;
+  padding: 25px 80px 80px 180px;
+  text-align: left;
+}
+
+.footer-left h4 {
+  font-family: Allura, cursive;
+  color: rgb(166, 114, 69);
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.footer-left p {
+  font-family: Roboto, serif;
+  font-weight: 100;
+  line-height: 2;
+}
+
+.footer-right {
+  width: 50%;
+  padding: 25px;
+  text-align: left;
+}
+
+.nav-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  margin: 0 auto;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding-top: 30px;
+}
+
+.nav-icon-footer {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 50px;
+  padding-left: 70px;
+  opacity: 0.5;
 }/*# sourceMappingURL=index.css.map */
